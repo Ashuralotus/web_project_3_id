@@ -1,0 +1,8 @@
+.website {
+    display: grid;
+    grid-column: 2;
+    grid-row: 1;
+    width: 456px;
+    height: 67px;
+    margin-top: 130px;
+}

@@ -1,0 +1,7 @@
+.intro {
+    grid-area: intro;
+    width: 883px;
+    height: 542px;
+    margin-top: 192px;
+    margin-left: 148px;
+}

@@ -1,0 +1,14 @@
+.footer {
+    grid-area: footer;
+    width: 189px;
+    height: 32px;
+    margin-top: -150px;
+    margin-left: 540px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}

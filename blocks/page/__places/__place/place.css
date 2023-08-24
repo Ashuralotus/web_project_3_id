@@ -1,0 +1,6 @@
+.place {
+    display: grid;
+    width: 984px;
+    height: 756px;
+    grid-template-columns: repeat(2, 1fr);
+}

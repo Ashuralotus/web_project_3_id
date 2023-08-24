@@ -1,0 +1,7 @@
+.lead {
+    grid-area: lead;
+    width: 984px;
+    height: 983px;
+    margin-left: 148px;
+    margin-right: 148px;
+}

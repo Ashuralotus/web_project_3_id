@@ -1,0 +1,14 @@
+.page {
+    display: grid;
+    width: 1280px;
+    background-color: #2A2C2F;
+    grid-template-areas: "logo logo"
+                         "lead lead"
+                         "intro intro"
+                         "grid grid"
+                         "main main"
+                         "cover cover"
+                         "footer footer";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr 0.5fr 0.5fr 4fr 1fr;
+}

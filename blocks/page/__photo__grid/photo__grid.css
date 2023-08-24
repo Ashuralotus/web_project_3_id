@@ -1,0 +1,10 @@
+.photo-grid {
+    grid-area: grid;
+    width: 1184px;
+    height: 442px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 16px;
+    margin-top: -66px;
+    margin-left: 48px;
+}
