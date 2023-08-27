@@ -6,21 +6,23 @@
     }
 
     .logo {
-        width: 200px;
-        height: 51px;
-        margin: auto;
         margin-top: 35px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .lead {
-        width: 208px;
+        width: 319px;
         height: 208px;
         margin-left: auto;
+        margin-right: auto;
     }
 
     .lead__title {
         width: 223px;
         height: 176px;
+        margin-left: auto;
+        margin-right: auto;
         font-family: Inter;
         font-size: 40px;
         font-weight: 900;
@@ -28,12 +30,13 @@
         letter-spacing: 0em;
         text-align: center;
         color: #FFFFFF;
-        margin: auto;
     }
 
     .lead__subtitle {
-        width: 230px;
+        width: 260px;
         height: 60px;
+        margin-left: auto;
+        margin-right: auto;
         font-family: Inter;
         font-size: 16px;
         font-weight: 400;
@@ -41,21 +44,18 @@
         letter-spacing: 0em;
         text-align: center;
         color: #FFFFFF;
-        margin: auto;
     }
 
     .lead-img {
-        width: 320px;
+        width: 319px;
         height: 200px;
         margin-top: 20px;
-        margin-left: -45px;
     }
 
     .intro {
         width: 304px;
         height: 928px;
-        margin: -1120px auto 0 auto;
-        margin-left: 190px;
+        margin: -1000px auto 0 auto;
     }
 
     .intro__title {
@@ -79,7 +79,7 @@
         line-height: 30px;
         letter-spacing: 0em;
         text-align: left;
-        margin-top: -65px;
+        margin-top: -20px;
         color: #FFFFFF;
     }
 
@@ -108,10 +108,10 @@
     }
     .photo-grid {
         width: 288px;
-        height: 1812px;
         grid-template-columns: 1fr;
-        margin-top: -1200px;
-        margin-left: 180px;
+        margin-top: -950px;
+        margin-left: auto;
+        margin-right: auto;
         gap: 16px;
     }
 
@@ -121,14 +121,13 @@
     }
     .places {
         width: 320px;
-        height: 7000px;
-        margin-top: -180px;
-        margin-left: 55%;
+        margin-top: 70px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .place {
         width: 320px;
-        height: 100%;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 0;
@@ -139,8 +138,7 @@
         grid-column: 1;
         grid-row: 1;
         width: 288px;
-        height: 35px;
-        margin-top: 0;
+        margin-top: 50px;
         font-family: Inter;
         font-size: 32px;
         font-weight: 900;
@@ -156,7 +154,6 @@
         grid-row: 3;
         width: 320px;
         height: 320px;
-        margin-top: -130px;
     }
 
     .frame {
@@ -164,8 +161,6 @@
         grid-column: 1;
         grid-row: 5;
         width: 288px;
-        height: 57px;
-        margin-top: 340px;
         padding: 13px 20px 13px 20px;
         border-radius: 4px;
         gap: 10px;
@@ -188,8 +183,7 @@
         grid-column: 1;
         grid-row: 2;
         width: 288px;
-        height: 89px;
-        margin-top: -130px;
+        margin-top: 0px;
     }
 
     .url-heading {
@@ -208,7 +202,6 @@
     .artist {
         display: grid;
         width: 288px;
-        height: 66px;
         margin-top: 0;
         font-family: Inter;
         font-size: 18px;
@@ -224,8 +217,6 @@
         grid-column: 1;
         grid-row: 4;
         width: 288px;
-        height: 288px;
-        margin-top: -100px;
         font-family: Inter;
         font-size: 15px;
         font-weight: 400;
@@ -238,8 +229,6 @@
     .cover {
         width: 320px;
         height: 254px;
-        margin-top: -50px;
-        margin-left: 90px;
     }
 
     .cover h2 {
@@ -281,10 +270,9 @@
     }
 
     .footer {
-        width: 189px;
+        width: 205px;
         height: 28px;
-        margin: -1450px auto 0 auto;
-        margin-left: 40%;
+        margin: -1330px auto 0 auto;
     }
 
     .footer__author {

@@ -3,19 +3,16 @@
     .page {
         margin: 0 auto 0 auto;
         width: 768px;
-        height: 7382px;
     }
 
     .logo {
         width: 270px;
         height: 70px;
-        margin: auto;
-        margin-top: 35px;
+        margin: 35px auto 0 auto;
     }
 
     .lead {
         width: 720px;
-        height: 404px;
         margin: 90px auto 0 auto;
     }
 
@@ -54,8 +51,6 @@
 
     .intro {
         width: 720px;
-        height: 600px;
-        margin: 730px auto 0 auto;
     }
 
     .intro__title {
@@ -120,14 +115,11 @@
     }
     .places {
         width: 768px;
-        height: 4350px;
         margin-top: 65px;
-        margin-left: 33%;
     }
 
     .place {
         width: 720px;
-        max-height: 850px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 0;
@@ -138,10 +130,9 @@
         grid-column: 1;
         grid-row: 1;
         width: 340px;
-        height: 92px;
         margin-top: 0;
         font-family: Inter;
-        font-size: 70px;
+        font-size: 60px;
         font-weight: 900;
         line-height: 70px;
         letter-spacing: 0em;
@@ -162,8 +153,7 @@
         grid-column: 1;
         grid-row: 3;
         width: 304px;
-        height: 48px;
-        margin-top: 30px;
+        margin-top: -95px;
         padding: 13px 20px 13px 20px;
         border-radius: 4px;
         gap: 10px;
@@ -186,8 +176,7 @@
         grid-column: 2;
         grid-row: 1;
         width: 309px;
-        height: 67px;
-        margin-top: 0;
+        margin-top: 100px;
     }
 
     .url-heading {
@@ -206,7 +195,6 @@
     .artist {
         display: grid;
         width: 309px;
-        height: 44px;
         margin-top: 0;
         font-family: Inter;
         font-size: 18px;
@@ -221,12 +209,11 @@
         display: grid;
         grid-column: 2;
         width: 352px;
-        height: 260px;
         margin-top: -25px;
         font-family: Inter;
         font-size: 16px;
         font-weight: 400;
-        line-height: 26px;
+        line-height: 20px;
         letter-spacing: 0em;
         text-align: left;
         color: #FFFFFF;
@@ -235,8 +222,7 @@
     .cover {
         width: 768px;
         height: 746px;
-        margin-top: -30px;
-        margin-left: 160px;
+        margin-top: -85px;
     }
 
     .cover h2 {
@@ -273,10 +259,9 @@
         margin: auto;
     }
     .footer {
-        width: 189px;
+        width: 205px;
         height: 32px;
-        margin: 50px auto 0 auto;
-        margin-left: 40%;
+        margin: -400px auto 0 auto;
     }
 
     .footer__author {

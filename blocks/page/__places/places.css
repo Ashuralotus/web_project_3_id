@@ -1,7 +1,7 @@
 .places {
+    grid-area: main;
     display: grid;
     width: 987px;
-    height: 4500px;
-    margin-top: -100px;
-    margin-left: 150px;
+    margin-left: auto;
+    margin-right: auto;
 }

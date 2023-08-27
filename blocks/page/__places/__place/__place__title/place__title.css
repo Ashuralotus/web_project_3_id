@@ -3,12 +3,12 @@
     grid-column: 1;
     grid-row: 1;
     width: 470px;
-    height: 228px;
-    margin-top: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
     font-family: Inter;
-    font-size: 70px;
+    font-size: 73px;
     font-weight: 900;
-    line-height: 95px;
+    line-height: 85px;
     letter-spacing: 0em;
     text-align: left;
     color: #FFFFFF;    
