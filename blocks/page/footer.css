@@ -13,3 +13,41 @@
     text-align: center;
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 320px){
+    
+    .footer {
+        width: 205px;
+        height: 28px;
+        margin: -1330px auto 0 auto;
+    }
+
+    .footer__author {
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FFFFFF;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+    
+    .footer {
+        width: 205px;
+        height: 32px;
+        margin: -400px auto 0 auto;
+    }
+
+    .footer__author {
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: right;
+        color: #FFFFFF;
+    }
+}

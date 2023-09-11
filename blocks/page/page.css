@@ -10,3 +10,19 @@
                          "footer";
     grid-template-rows: 0.1fr 1fr 0.5fr 0.5fr 4fr 1fr;
 }
+
+@media screen and (max-width: 320px){
+    
+    .page {
+        margin: 0 auto 0 auto;
+        width: 320px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+    
+    .page {
+        margin: 0 auto 0 auto;
+        width: 768px;
+    }
+}

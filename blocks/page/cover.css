@@ -11,16 +11,6 @@
     opacity: 0.6;
 }
 
-.contact {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    left: -10px;
-    top: -500px;
-}
-
 .cover h2 {
     font-family: 'Inter';
     width: 656px;
@@ -44,4 +34,79 @@
     line-height: 22px;
     text-align: center;
     color: #FFFFFF;
+}
+
+@media screen and (max-width: 320px){
+   
+    .cover {
+        width: 320px;
+        height: 254px;
+    }
+
+    .cover h2 {
+        width: 288px;
+        height: 35px;
+        font-family: Inter;
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 35px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .cover h6 {
+        width: 280px;
+        height: 48px;
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .cover-img {
+        width: 320px;
+        height: 254px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+   
+    .cover {
+        width: 768px;
+        height: 746px;
+        margin-top: -85px;
+    }
+
+    .cover h2 {
+        width: 656px;
+        height: 76px;
+        font-family: Inter;
+        font-size: 72px;
+        font-weight: 900;
+        line-height: 76px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .cover h6 {
+        width: 280px;
+        height: 66px;
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .cover-img {
+        width: 768px;
+        height: 746px;
+    }
 }
