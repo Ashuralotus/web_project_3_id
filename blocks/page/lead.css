@@ -1,0 +1,42 @@
+.lead {
+    grid-area: lead;
+    width: 984px;
+    height: 983px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lead__title {
+    font-family: 'Inter', sans-serif;
+    width: 793px;
+    height: 200px;
+    margin-left: 95px;
+    margin-right: 96px;
+    margin-bottom: 32px;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.lead__subtitle {
+    font-family: 'Inter', sans-serif;
+    width: 720px;
+    height: 72px;
+    margin-left: 132px;
+    margin-right: 132px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.lead-img {
+    width: 984px;
+    height: 615px;
+    margin-top: 64px;
+    filter: grayscale(1);
+}
