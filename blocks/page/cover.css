@@ -36,6 +36,16 @@
     color: #FFFFFF;
 }
 
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -10px;
+    top: -500px;
+}
+
 @media screen and (max-width: 320px){
    
     .cover {
@@ -70,6 +80,14 @@
     .cover-img {
         width: 320px;
         height: 254px;
+    }
+
+    .contact {
+        width: 288px;
+        height: 163px;
+        position: relative;
+        left: 5px;
+        top: -220px;
     }
 }
 
@@ -108,5 +126,10 @@
     .cover-img {
         width: 768px;
         height: 746px;
+    }
+
+    .contact {
+        width: 656px;
+        height: 254px;
     }
 }
