@@ -1,7 +1,6 @@
 .places {
     grid-area: main;
     display: grid;
-    width: 987px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -218,7 +217,6 @@
 @media screen and (min-width: 321px) and (max-width: 768px) {
     
     .places {
-        width: 768px;
         margin-top: 65px;
     }
 
