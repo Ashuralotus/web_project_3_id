@@ -1,6 +1,7 @@
 .page {
     display: grid;
-    margin: 0 auto 0 auto;
+    /* margin: 0 auto 0 auto; */
+    margin: auto;
     background-color: #2A2C2F;
     grid-template-areas: "logo"
                          "lead"
@@ -15,13 +16,18 @@
 @media screen and (max-width: 320px){
     
     .page {
-        width: 320px;
+        max-width: 320px;
+        
     }
 }
+
 
 @media screen and (min-width: 321px) and (max-width: 768px) {
     
     .page {
-        width: 768px;
+        max-width: 768px;
     }
 }
+
+
+
