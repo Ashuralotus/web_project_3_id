@@ -1,10 +1,6 @@
 .footer {
     grid-area: footer;
-    width: 189px;
-    height: 32px;
-    margin-top: -150px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -19,7 +15,6 @@
     .footer {
         width: 205px;
         height: 28px;
-        margin-top: -1330px;
     }
 
     .footer__author {
@@ -38,7 +33,6 @@
     .footer {
         width: 205px;
         height: 32px;
-        margin-top: -400px;
     }
 
     .footer__author {

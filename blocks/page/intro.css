@@ -1,8 +1,7 @@
 .intro {
     grid-area: intro;
-    width: 883px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 980px;
+    margin: auto;
 }
 
 .intro__title {
@@ -57,8 +56,6 @@
     
     .intro {
         width: 304px;
-        height: 928px;
-        margin-top: -1000px;
     }
 
     .intro__title {
