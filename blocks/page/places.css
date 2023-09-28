@@ -105,7 +105,7 @@
     color: #FFFFFF;    
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 425px){
 
     .places {
         width: 320px;
@@ -213,7 +213,7 @@
     }
 }
 
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media screen and (min-width: 426px) and (max-width: 768px) {
     
     .places {
         margin-top: 65px;

@@ -52,7 +52,7 @@
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 425px){
     
     .intro {
         width: 304px;
@@ -108,7 +108,7 @@
     }
 }
 
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media screen and (min-width: 426px) and (max-width: 768px) {
 
     .intro {
         width: 720px;

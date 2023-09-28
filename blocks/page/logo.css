@@ -6,13 +6,13 @@
     margin: auto;
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 425px){
     .logo {
         margin-top: 35px;
     }
 }
 
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media screen and (min-width: 426px) and (max-width: 768px) {
     
     .logo {
         width: 270px;

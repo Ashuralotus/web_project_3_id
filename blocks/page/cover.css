@@ -44,11 +44,12 @@
     top: -500px;
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 425px){
    
     .cover {
-        width: 300px;
+        width: 93%;
         height: 254px;
+        margin: 30px auto;
         margin-bottom: 0px;
     }
 
@@ -82,15 +83,14 @@
     }
 
     .contact {
-        width: 288px;
         height: 163px;
         position: relative;
-        left: 15px;
+        left: 0px;
         top: -220px;
     }
 }
 
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media screen and (min-width: 426px) and (max-width: 768px) {
    
     .cover {
         width: auto;

@@ -13,18 +13,3 @@
                          "footer";
     grid-template-rows: 0.1fr 0.1fr 0.5fr 0.5fr 4fr 0.1fr 0.1fr;
 }
-
-@media screen and (max-width: 320px){
-    
-    .page {
-        width: 320px;
-    }
-}
-
-@media screen and (min-width: 321px) and (max-width: 768px) {
-    
-    .page {
-        width: 100%;
-        max-width: 768px;
-    }
-}

@@ -8,3 +8,7 @@
 @import url(../blocks/page/lead.css);
 @import url(../blocks/page/photo-grid.css);
 @import url(../blocks/page/places.css);
+
+img {
+    width: 100%;
+}
